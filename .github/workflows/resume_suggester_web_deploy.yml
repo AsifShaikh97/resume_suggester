@@ -2,7 +2,8 @@ name: Resume Suggester Web Deploy
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   build-and-deploy:
@@ -16,7 +17,7 @@ jobs:
           flutter-version: '3.32.0'
 
       - run: flutter pub get
-      - run: flutter build web --release
+      - run: flutter build web
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
