@@ -22,6 +22,10 @@ dev_dependencies:
 
   flutter_lints: ^5.0.0
   flutter_bloc: ^8.1.3
+  file_picker: ^10.1.9
+  pdf_text:
+  path_provider: ^2.0.14
+  fluttertoast:
 
 flutter:
 
