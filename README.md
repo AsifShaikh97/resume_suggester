@@ -1,16 +1,28 @@
-# resume_suggester
+# 🧠 Resume Suggester - Flutter Web
 
-A new Flutter project.
+A smart, interactive **Resume Suggester** built using **Flutter Web** that helps users craft job-ready resumes with intelligent suggestions, structured inputs, and export options.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- ✍️ Clean UI to input personal, educational, and professional details
+- 🤖 Resume content suggestions based on role/title
+- 📄 Export resume as PDF
+- 🎨 Multiple resume templates (optional)
+- 🌐 Flutter Web support (works in browser)
+- 💾 Local state persistence (optionally using `HydratedBloc`, `SharedPreferences`, or other)
+- 🔍 Real-time preview (if implemented)
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter (Web)**
+- **Dart**
+- **Bloc / HydratedBloc** (State Management)
+- **PDF Generation** (`pdf` and `printing` packages)
+- **Responsive Design** (`LayoutBuilder`, `MediaQuery`, etc.)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧑‍💻 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/flutter_resume_suggester.git
+cd flutter_resume_suggester

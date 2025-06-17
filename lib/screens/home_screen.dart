@@ -153,7 +153,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa
                       Expanded(
                         child: Text(
                           _pdfFileName!,
-                          style: const TextStyle(fontWeight: FontWeight.w500),
+                          style: const TextStyle(fontWeight: FontWeight.w600),
                           overflow: TextOverflow.ellipsis,
                         ),
                       ),
